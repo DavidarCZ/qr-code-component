@@ -28,7 +28,7 @@
       align-items: center;
       height: 100vh;
     }
-    .main-content {
+    main {
       flex: 1;
       display: flex;
       justify-content: center;
@@ -48,30 +48,37 @@
       background-color: var(--white);
       display: flex;
       flex-direction: column;
-      max-width: 280px;
-      padding: 25px;
-      border-radius: 15px;
+      max-width: 260px;
+      padding: 15px;
+      padding-bottom: 30px;
+      border-radius: 20px;
     }
 
     .qr-code {
       width: 100%;
-      border-radius: 15px;
+      border-radius: 10px;
     }
 
     .qr-container p{
       color: var(--slate500);
       font-size: 15px;
     }
+
+    .qr-container h2{
+      color: var(--slate900);
+      font-size: 22px;
+      margin: 15px 0 10px 0;
+    }
   </style>
 </head>
 <body>
-  <div class="main-content">
+  <main>
     <div class="qr-container">
       <img src="./images/image-qr-code.png" alt="QR Code" class="qr-code">  
       <h2>Improve your front-end skills by building projects</h2>
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
     </div>
-  </div>
+  </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/DavidarCZ/">DavidarCZ</a>.
