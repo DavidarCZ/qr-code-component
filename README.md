@@ -1,9 +1,6 @@
 # Frontend Mentor - QR code component
 
 ## Table of contents
-
-(#frontend-mentor---qr-code-component)
-
 - [Frontend Mentor - QR code component](#frontend-mentor---qr-code-component)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
